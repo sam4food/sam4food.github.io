@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Level 1 Javascript User"
+title: "Level 1 JavaScript User"
 # All dates must be YYYY-MM-DD format!
 date: 2023-08-28
 published: true
