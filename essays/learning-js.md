@@ -6,7 +6,9 @@ title: "Level 1 Javascript User"
 date: 2023-08-28
 published: true
 labels:
-  - JavaScript, Programming
+  - JavaScript 
+  - Programming
+  - Learning
 ---
 
 <img width="200px" class="rounded float-start pe-4" src="../img/learning-js/js_pic.jpg"> 
