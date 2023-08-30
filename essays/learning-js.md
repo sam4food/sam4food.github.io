@@ -9,7 +9,7 @@ labels:
   - JavaScript, Programming
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/difficulty/js_pic."> 
+<img width="200px" class="rounded float-start pe-4" src="sam4food/sam4food.github.io/img/difficulty/js_pic.jpg"> 
 
 *JavaScript From a Beginner's Point of View*
 
