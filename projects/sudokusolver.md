@@ -12,7 +12,7 @@ labels:
 summary: "A program that solves sudoku."
 ---
 
-<img class="img-fluid" src="../img/sudokusolve/sudokuimage.png">
+<img class="float-start p-4" src="../img/sudokusolve/sudokuimage.png">
 
 Sudoku Solver is a program that was create as an assignment in ICS 211, Spring 2023. The project helped me learn how to utilize Java and for loops in order to properly solve and fill out a sudoku.
 
