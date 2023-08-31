@@ -10,7 +10,7 @@ labels:
   - Learning
 ---
 
-<img width="100px" class="rounded float-start pe-4" src="../img/sebegin/sepic.jpg">
+<img width="50%" class="rounded float-start pe-4" src="../img/sebegin/sepic.jpg">
 
 ## How It Started
 
