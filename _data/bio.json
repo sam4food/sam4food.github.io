@@ -43,27 +43,29 @@
   ],
   "work": [
     {
-      "company": "",
-      "position": "",
+      "company": "Univeristy of Hawaii Manoa",
+      "position": "Assistant Teacher Assistant",
       "website": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
+      "startDate": "2023",
+      "endDate": "2023",
+      "summary": "Assist TA's during ICS-111 lab sessions and provide help",
       "highlights": [
-        ""
+        "Assisting students with assignments",
+        "Providing knowledge to students in entry level ICS course"
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "",
+      "organization": "PANDA at UH Manoa",
       "website": "",
-      "position": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
+      "position": "Member",
+      "startDate": "2022",
+      "endDate": "2024",
+      "summary": "A programming and algorithms club that provides extra help and practice for computer science topics",
       "highlights": [
-        ""
+        "Developed stronger understanding of algorithms and programming",
+        "Improved understanding and utilization of Java"
       ]
     }
   ],
