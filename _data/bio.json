@@ -10,9 +10,7 @@
     "location": { "address": "", "postalCode": "96706", "city": "Ewa Beach", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "sam4food", "url": "http://github.com/sam4food" },
-      { "network": "linkedin", "username": "samuelyang", "url": "https://www.linkedin.com/in/samuel-yang-243709289/" },
-      { "network": "twitter", "username": "", "url": "" },
-      { "network": "instagram", "username": "", "url": "" }
+      { "network": "linkedin", "username": "samuelyang", "url": "https://www.linkedin.com/in/samuel-yang-243709289/" }
     ]
   },
   "interests": [
@@ -25,7 +23,7 @@
   "skills": [
     {
       "name": "Languages",
-      "keywords": [ "Java", "Javascript", "Python", "HTML" ]
+      "keywords": [ "Java", "Javascript", "Python" ]
     },
     {
       "name": "Toolsets/OS",
@@ -52,7 +50,6 @@
       "endDate": "",
       "summary": "",
       "highlights": [
-        "",
         ""
       ]
     }
@@ -66,8 +63,6 @@
       "endDate": "",
       "summary": "",
       "highlights": [
-        "",
-        "",
         ""
       ]
     }
