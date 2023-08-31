@@ -9,7 +9,7 @@ labels:
   - Java
   - GitHub
   - Eclipse
-summary: "A program that finds the top 10 most frequently used words."
+summary: "A program that finds the top 10 most frequently used words in a file."
 ---
 
 <img class="img-fluid" src="../img/wordFreq/outputlul.png">

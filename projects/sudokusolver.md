@@ -9,7 +9,7 @@ labels:
   - Java
   - GitHub
   - Eclipse
-summary: "A responsive web application for travel planning that my team developed in ICS 415."
+summary: "A program that solves sudoku."
 ---
 
 <img class="img-fluid" src="../img/sudokusolve/sudokuimage.png">
