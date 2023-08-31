@@ -15,7 +15,7 @@ summary: "A program that performs binary addition from ICS-141."
 
 Binary Addition is a program that takes two integers as an input and then it will return the binary representation of the sum of the two numbers as a string. 
 
-Binary Addition was created on Pycharm (an IDE) using Python. The program is simple but is quite helpful when binary addition is needed. Furthermore, due to the simplistic nature of this, it makes the code very easy to understand.
+Binary Addition was created on Pycharm (an IDE) using Python. The program is simple but is quite helpful when binary addition is needed. Furthermore, due to the simplistic nature of this, it makes the code very easy to understand. The code created was done by myself and the help of a TA who helped answer questions that I had regarding this assignment.
 
 In this assignment, I learned how to better utilize Python in order to accomplish a task. Addiionally, I developed a better understanding of Python rules and how Python works in general which deepened my understanding of the language. This assignment also helped me develop a better understanding of how binary addition works which was definitely needed when completing this assignment. 
 

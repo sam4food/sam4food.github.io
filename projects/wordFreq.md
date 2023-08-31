@@ -16,7 +16,7 @@ summary: "A program that finds the top 10 most frequently used words in a file."
 
 This program was part of an assignment from ICS-211 where it was used to determine the top 10 most frequent words from two different documents. The progrm was written in Java on the IDE Eclipse. What other information this program provides include how long adding nodes took, how many unique strings the tree that is being created from the program has, the depth, and it gives the number of times each of the top 10 words use. 
 
-Although the program may seem simple, the program can be used for mulitple situations. Situations include checking what the top 10 most frequent words in an essay could be which can allow writers to know if they are using a word too frequently or not. 
+Although the program may seem simple, the program can be used for mulitple situations. Situations include checking what the top 10 most frequent words in an essay could be which can allow writers to know if they are using a word too frequently or not. My role in this assignment was basically to just make what was given work.
 
 In this assignment, I managed to learn more about binary search trees and how they work. Additionally, this project helped me improve my Java coding abilities and knowledge which can be greatly helpful in the future for both my career and academic career.
 
