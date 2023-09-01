@@ -1,99 +1,31 @@
 ---
 layout: essay
 type: essay
-title: "Smart Questions, Good Answers"
+title: "A Professional Point of View"
 # All dates must be YYYY-MM-DD format!
-date: 2015-09-08
-published: false
+date: 2023-08-31
+published: true
 labels:
-  - Questions
-  - Answers
-  - StackOverflow
+  - Learning
+  - Software Engineering
+  - Guest Speaker
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
+<img width="300px" class="rounded float-start pe-4" src="../img/guesttalksesh/kevincosta.png">
 
-## Is there such thing as a stupid question?
+## Thoughts Going In
 
-I’ve had instructors address a whole class and say, “There’s no such thing as a stupid question.” I now know that is in fact not true because I’ve challenged the statement and received the appropriate dumb-stricken, annoyed look. There are definitely stupid questions, and along with that, usually unhelpful answers. Though we all might be guilty of being callous and making people victim to our poorly formed questions, there are steps we can take to ask smarter questions that hopefully don’t illicit the dreaded “rtfm” or “stfw” response.
+August 30, 2023 I attended Kevin Costa’s Tech Industry Guest Talk via zoom and at the time I did not really know what to expect except that he would be providing some valuable insight within the software engineering field. Mr. Costa from Business Solution Technologies has had over 35 years of business and information technology experience within both private businesses and government organizations. Currently, he is the Director of Education Solutions at Business Solution Technologies, Inc and so he had a lot of valuable experience that he could share with everyone. 
 
-## What’s a smart question?
+## Teamwork
 
-Stack Overflow, a question and answer site for programmers, is a great resource for anyone who may have issues with code or who may simply want to learn new or different methods of doing something. There I found examples of good questions and bad questions, which could probably be improved.
+A major point Mr. Costa discussed in great detail was the need for teamwork and collaboration without any sort of judgment or disrespect. It was greatly emphasized that when brainstorming, people shouldn’t be afraid to bring up ideas or to speak what is on their mind. After listening to Mr. Costa talked about how important it is to speak up and how it can impact how well a team works together. It made me realize how important it is and that I should practice it before I go out into the real world to work. 
 
-In the following example, we examine the components of a decent question. In this case, the asker is trying to figure out a way to get the date of the previous month in Python.
+## Commenting is a Necessity
+Another major points Mr. Costa discussed during his guest talk session the importance of commenting code. In most cases, students in college might not need to comment on their code as detailed as other people out in the field because they think that everyone knows what is happening in the code and what the code should do since the majority of coding is for homework assigned by professors. However, in the real world, commenting code is absolutely necessary in order for people to understand what might be happening as there are many people working on code and not everyone may know what is happening since people can come and go. It was mentioned that having comments in code can save people a lot of time since programmers wouldn’t need to spend so much time trying to decipher what each line of code means especially if the code wasn’t written by them. Mr. Costa went into great detail on the importance of commenting and the “liberal use” of commenting within code even though it may seem too much. 
 
-```
-Q: python date of the previous month
+Mr. Costa’s explanation of the importance of commenting code has definitely left a great impact on me as I realized the importance of it and how saving time and knowing exactly what something does will mean less stress and less of a chance for mistakes. Additionally, in bigger companies it makes sense to comment a lot since that way co-workers and future employees can have an easier time understanding and will mitigate the possibility of fatal errors. This is especially true for companies like NASA and their spacecraft launches. One small error could possibly lead to a fatal result or it might even take a long time for people to even begin a launch as well. Mr. Costa also did mention NASA having to spend many years and having a large amount of people to work on spacecraft launches. 
 
-I am trying to get the date of the previous month with python. Here is what i've tried:
+## Final Thoughts
 
-str( time.strftime('%Y') ) + str( int(time.strftime('%m'))-1 )
-
-However, this way is bad for 2 reasons: First it returns 20122 for the February of 2012 (instead of 201202) 
-and secondly it will return 0 instead of 12 on January.
-
-I have solved this trouble in bash with:
-
-echo $(date -d"3 month ago" "+%G%m%d")
-
-I think that if bash has a built-in way for this purpose, then python, much more equipped, should provide something 
-better than forcing writing one's own script to achieve this goal. Of course i could do something like:
-
-if int(time.strftime('%m')) == 1:
-    return '12'
-else:
-    if int(time.strftime('%m')) < 10:
-        return '0'+str(time.strftime('%m')-1)
-    else:
-        return str(time.strftime('%m') -1)
-        
-I have not tested this code and i don't want to use it anyway (unless I can't find any other way:/)
-
-Thanks for your help!
-```
-
-While the heading of his question could be better, it does convey what he’s trying to figure out. Usually something as brief as “python date of previous month” is what other users would enter in as search terms on Google, making it easily found. Another good thing about the question is that it’s not just a question. The asker shows what he or she has done and that he or she has put in some effort to answer the question. And while it may not be as important as the question itself, the asker shows courtesy, which does increase the chance of getting an answer.
-
-```
-A: datetime and the datetime.timedelta classes are your friend.
-
-1. find today
-2. use that to find the first day of this month.
-3. use timedelta to backup a single day, to the last day of the previous month.
-4. print the YYYYMM string you're looking for.
-
-Like this:
-
- >>> import datetime
- >>> today = datetime.date.today()
- >>> first = datetime.date(day=1, month=today.month, year=today.year)
- >>> lastMonth = first - datetime.timedelta(days=1)
- >>> print lastMonth.strftime("%Y%m")
- 201202
- >>>
-
-```
- 
-The asker received six possible answers, and he or she was successful in inciting discussion from multiple users. The answers themselves were clear and were devoid of the rumored sarcasm and hostility of “hackers.” Since I myself have referenced this page and found it useful, I can confidently say that it is a good question.
-
-## The foolproof way to get ignored.
-
-While there are decent questions that benefit everyone, there are those one can ask to create an entirely different effect. In the following example, a user asks how he would, in short, create a desktop application with Facebook.
-
-```
-Q: Facebook Desktop Notifier
-
-I am a beginner programmer that have never used anything other than what's included in a language.
-
-I am trying to create a desktop application that notifies me anytime I get an update onfacebook. 
-How should go about doing this? Thanks in advance.
-
-edit Sorry I was not clear. Is there any way to make a DESKTOP application with facebook?
-```
-
-A simple “yes” would have answered the question, but we know that’s not the sort of answer he or she is looking for. Fortunately, someone kindly responded with a link to Facebook’s developer website. The asker should have done more research on his or her potential project. Then further down the road, he or she could have asked more specific and detailed questions that wouldn’t require a thousand-paged response for a sufficient answer.
-
-## Conclusion
-
-When we rely on others’ generosity and expertise to provide answers to our questions, it should hold that the question we ask should be one that leads to efficient and effective help that not only benefits us, but also the people we ask and others who might ask the same question in the future. Thus, if you have a question… make it a smart one! Asking questions may not always get you the best answer, but asking them in a way that will make others want to answer them will increase the success of finding a good solution and make it a positive experience on all sides.
+As an ICS-314 student, I personally believe this talk was quite valuable and informative as I was able to learn more about this field from Mr. Costa’s insight. I learned that commenting code is extremely important since sometimes it’s not only yourself who is reading the code but other people as well. It also is important since it’ll save you time if you go back to the code and end up forgetting what something does. Being able to work in a team by being open and confident is also something I learned. It makes me realize that I should strive to practice and develop teamwork skills that will help me better impact future teams that I am in such that an agreement on a solution or conclusion can be made more quickly without any argument. Overall, this talk was eye opening and I learned a lot about what I should start to practice in order to be successful in the future. 
