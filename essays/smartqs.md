@@ -10,7 +10,7 @@ labels:
   - Stack Overflow
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/imagesforessays/stackoverflow-1.png"> 
+<img width="300px" class="rounded float-start pe-4" src="../img/imagesforessays/stackoverflow-1.png"> 
 
 Asking smart questions doesn’t necessarily mean there are dumb questions, a smart question simply means that a question was asked in a smart way. The ability to ask smart questions is a skill that goes beyond just the field of software engineering. If an individual is unable to properly ask a smart question, it may lead to both ineffective and inefficient help. 
 
