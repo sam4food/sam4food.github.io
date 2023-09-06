@@ -38,7 +38,7 @@ Looking at the solutions that were provided to the user named Mourad Karoudi, th
 Asking smart questions is important and knowing how to ask smart questions is even more important for smart software engineers. As seen in examples, a smart question can lead to effective and efficient solutions that could possibly help to improve your own code. The level of smartness from a question is pretty much equivalent to the smartness of the answer. I’ve personally learned a lot from this experience as I’ve noticed while scrolling through Stack Overflow that many people who asked smart questions often received answers that were concise and sometimes even suggestions on how to improve. All of this wouldn’t have been possible without a smart question. I’ve learned the consequences of not so smart questions and how it can hinder my progress. Overall, I’ve developed a better understanding of how to formulate and ask smart questions which is something I will practice doing more of. 
 
 
-
+### Links to Examples  
 Want to see the examples used in the essay for yourselves? Click on the one you want to see below.
 [Good Example](https://stackoverflow.com/questions/30142361/react-js-uncaught-typeerror-this-props-data-map-is-not-a-function)
 [Bad Example](https://stackoverflow.com/questions/41664190/why-live-not-working-with-jquery)
