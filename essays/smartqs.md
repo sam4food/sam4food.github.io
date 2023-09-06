@@ -40,5 +40,5 @@ Asking smart questions is important and knowing how to ask smart questions is ev
 
 ### Links to Examples  
 Want to see the examples used in the essay for yourselves? Click on the one you want to see below.
-[Good Example](https://stackoverflow.com/questions/30142361/react-js-uncaught-typeerror-this-props-data-map-is-not-a-function)
+[Good Example](https://stackoverflow.com/questions/30142361/react-js-uncaught-typeerror-this-props-data-map-is-not-a-function)  
 [Bad Example](https://stackoverflow.com/questions/41664190/why-live-not-working-with-jquery)
