@@ -22,7 +22,7 @@ In the field of software engineering, things are always going to be changing but
 
 In terms of experiences, I hope to gain valuable experience in the area of frontend and backend development. By doing so it will hopefully help me strengthen my understanding of full-stack development, leading me to have the ability to create a smooth user experience. I am further interested in the way things like artificial intelligence and machine learning can be used within software engineering or the other way around. These things can help create new resources for many people and make advancements in making applications that can better adapt and learn based on user interactions. I do hope to gain some experience in open-source contributions since that seems to be helpful as well
 
-## Final 
+## Final Thoughts
 
 Overall, I may not have the strongest background for software engineering but I am still deeply interested in this field and hope to make some sort of contribution in the field of software engineering. 
 
