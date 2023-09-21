@@ -8,6 +8,7 @@ published: true
 labels:
   - Software Engineering
   - Learning
+  - ESLint
 ---
 
 <img width="50%" class="rounded float-start pe-4" src="../img/wodthoughtsimg/istockphoto-1434940322-612x612.jpg">
