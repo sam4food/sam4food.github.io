@@ -28,7 +28,7 @@ Read more about <a href="https://www.fullcycletakeouthawaii.org">Full Cycle Take
     - This page will confirm with customers what they have selected. It will ask customers for their credit card information, either by entering it manually or by tapping.
 
 - **Sign In Page / Sign Up Page**
-    - This page is optional for customers. They can choose whether they want to sign in or not. This page will mainly track the orders they made and ensure they are aware of the return time/date
+    - This page is optional for customers. They can choose whether they want to sign in or not. This page will mainly track the orders they made and ensure they are aware of the return time/date.
 
 - **Current Orders Page**
     - This page shows customers information about their rentals. What is being rented, what tableware they will be renting, and what they have already returned. 
@@ -37,19 +37,19 @@ Read more about <a href="https://www.fullcycletakeouthawaii.org">Full Cycle Take
     - Will display their payment methods, and their “credit collateral” used to rent out products.
 
 ## Use Case Ideas
-- A new user will make an account, and set up their contact details
+- A new user will make an account, and set up their contact details.
     - Their contact details should include their first name, last name, phone number, and email address.
 
-- The user will be able to place rent orders for reusable containers through the website/app to Zero-Waste-Oahu
+- The user will be able to place rent orders for reusable containers through the website/app to Zero-Waste-Oahu.
     - The user should be able to pick which kind of containers they want to use and if they want to also rent out any other tableware. 
 
-- In the “Current orders” page they will be able to view their ongoing rentals (placed, ongoing, returned)
+- In the “Current orders” page they will be able to view their ongoing rentals (placed, ongoing, returned).
 
 ## Beyond the Basics
-- A mobile application
+- A mobile application.
     - For the purpose of the ICS 314 project, we will not be including this. However, this will be included in our HACC. This will basically be the same as if you were to use a regular desktop application but it will be created so that it works on mobile devices as well. 
 
-- Allow for transactions to take place through the website/ app
+- Allow for transactions to take place through the website/ app.
     - Challenge description asks for a ‘fake transaction portal’ for prototyping purposes.
 
 - A faster way to save payment credentials
