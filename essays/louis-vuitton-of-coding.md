@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Louis Vuitton of Coding"
 # All dates must be YYYY-MM-DD format!
-date: 2023-11-20
+date: 2023-11-29
 published: true
 labels:
   - Learning
