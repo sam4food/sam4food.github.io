@@ -23,11 +23,11 @@
   "skills": [
     {
       "name": "Languages",
-      "keywords": [ "Java", "Javascript", "Python" ]
+      "keywords": [ "Java", "Javascript", "Python", "C", "C++" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "Windows", "Git/GitHub" ]
+      "keywords": [ "Windows", "Git/GitHub", "DigitalOcean" ]
     }
   ],
   "education": [
