@@ -13,7 +13,7 @@ labels:
   - GitHub
   - Testing
   - NoSQL
-summary: "A pilot program by the non-profit Zero Waste O’ahu (Zero Waste Hawaii). Their mission is to reduce the waste produced by single-use containers and utensils by renting out re-usable ones. Having a web application will be able to reduce the burden on both customers and the organization."
+summary: "ICS 314 Project adapted from 2023 Hawaii Annual Code Challenge Project"
 ---
 
 <img class="img-fluid" src="../img/FireSheep-FCTWhite.png">
