@@ -22,8 +22,8 @@
   ],
   "skills": [
     {
-      "name": "Languages",
-      "keywords": [ "Java", "Javascript", "Python", "C", "C++" ]
+      "name": "Languages and Frameworks",
+      "keywords": [ "Java", "Javascript", "Python", "C", "C++", "React", "BootStrap5", "Meteor" ]
     },
     {
       "name": "Toolsets/OS",
@@ -66,6 +66,18 @@
       "highlights": [
         "Developed stronger understanding of algorithms and programming",
         "Improved understanding and utilization of Java"
+      ]
+    }
+    {
+      "organization": "HACC 2023 - Reusable Takeout Program App",
+      "website": "https://github.com/HACC2023/firesheep",
+      "position": "Project Leader & Software Developer",
+      "startDate": "2023",
+      "endDate": "2023",
+      "summary": "Developed a Reusable Takeout Program App aimed at tracking and retaining returnable containers, ensuring sustainability by automating fee collection for unreturned items.",
+      "highlights": [
+        "Utilized MongoDB, Express, React, and Node.js to architect and develop the application.",
+        "Recognized as finalists for the innovative solution developed, demonstrating effectiveness in addressing the challenge and promoting sustainability in waste reduction initiatives."
       ]
     }
   ],
