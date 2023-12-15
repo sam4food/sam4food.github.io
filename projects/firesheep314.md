@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/firesheep.png
-title: "Bank Database Application"
+title: "Full Cycle Takeout"
 date: 2023
 published: true
 labels:
