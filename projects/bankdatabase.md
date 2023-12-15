@@ -12,8 +12,6 @@ labels:
 summary: "A bank database application that stores the information of users."
 ---
 
-<img class="img-fluid" src="../img/binaryadd/binarypic.jpg">
-
 ## Introduction
 
 This is a bank database application that stores user information. It stores their name, address, and account number. Users are able to add, find, and delete accounts. The program is also capable of printing out all the accounts within the database. There is also an option to activate a debug mode which would tell the user what options were selected, the information that was inputted, and whether or not a function was properly ran. 
