@@ -22,6 +22,25 @@ This is a bank database application that stores user information. It stores thei
 
 The interface of this application shows a welcome message and provides users with a list of possible options to pick from. It also provides them with a short description of what each option does. At the top, it also provides users with a short message stating whether or not the debug mode is on. 
 
+```c
+if (argc == 2 && strcmp(argv[1], "debug") == 0)
+{
+  debugMode = 1;
+  printf("\ndebugMode is on\n");
+}
+
+else if (argc > 1)
+{
+  printf("\nInvalid option, try again please.\n");
+  return -1;
+}
+
+else
+{
+  printf("\ndebugMode is off\n");
+}
+```
+
 ## Database
 
 <img class="img-fluid" src="../img/bnkAdd.png">
