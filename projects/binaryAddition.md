@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/binaryadd/squarebinary.png
 title: "Binary Addition"
-date: 2023
+date: 2023-04
 published: false
 labels:
   - Pycharm

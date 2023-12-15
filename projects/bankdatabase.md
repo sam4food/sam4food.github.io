@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/bank.avif
 title: "Bank Database Application"
-date: 2023
+date: 2023-10
 published: true
 labels:
   - C

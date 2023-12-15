@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/firesheep.png
 title: "Full Cycle Takeout"
-date: 2023
+date: 2023-10
 published: true
 labels:
   - React
