@@ -13,6 +13,7 @@ labels:
   - GitHub
   - Testing
   - NoSQL
+  - JavaScript
 summary: "ICS 314 Project adapted from 2023 Hawaii Annual Code Challenge Project"
 ---
 
