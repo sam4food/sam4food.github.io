@@ -1,0 +1,97 @@
+{
+  "basics": {
+    "name": "Samuel Yang",
+    "label": "Student",
+    "picture": "https://media.discordapp.net/attachments/713185066653712517/1146782038356131951/Cropped_Image_1.png",
+    "email": "samuelse@hawaii.edu",
+    "phone": "",
+    "website": "https://sam4food.github.io",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring 2025.",
+    "location": { "address": "", "postalCode": "96706", "city": "Ewa Beach", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "sam4food", "url": "http://github.com/sam4food" },
+      { "network": "linkedin", "username": "samuelyang", "url": "https://www.linkedin.com/in/samuel-yang-243709289/" }
+    ]
+  },
+  "interests": [
+    { "name": "AI Engineering" },
+    { "name": "Software Development" },
+    { "name": "Medical AI" },
+    { "name": "Machine Learning" },
+    { "name": "Human-Computer Interaction" }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "Java", "Javascript", "Python", "C", "C++", "React", "BootStrap5", "Meteor" ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "Windows", "Git/GitHub", "DigitalOcean" ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Science (expected Spring, 2025)",
+      "studyType": "B.S.",
+      "startDate": "2022",
+      "endDate": "Present",
+      "courses": [
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "Univeristy of Hawaii Manoa",
+      "position": "Assistant Teacher Assistant",
+      "website": "",
+      "startDate": "2023",
+      "endDate": "2023",
+      "summary": "Assist TA's during ICS-111 lab sessions and provide help",
+      "highlights": [
+        "Assisting students with assignments",
+        "Providing knowledge to students in entry level ICS course"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "PANDA at UH Manoa",
+      "website": "",
+      "position": "Member",
+      "startDate": "2022",
+      "endDate": "2024",
+      "summary": "A programming and algorithms club that provides extra help and practice for computer science topics",
+      "highlights": [
+        "Developed stronger understanding of algorithms and programming",
+        "Improved understanding and utilization of Java"
+      ]
+    },
+    {
+      "organization": "HACC 2023 - Reusable Takeout Program App",
+      "website": "https://github.com/HACC2023/firesheep",
+      "position": "Project Leader & Software Developer",
+      "startDate": "2023",
+      "endDate": "2023",
+      "summary": "Developed a Reusable Takeout Program App aimed at tracking and retaining returnable containers, ensuring sustainability by automating fee collection for unreturned items.",
+      "highlights": [
+        "Utilized MongoDB, Express, React, and Node.js to architect and develop the application.",
+        "Recognized as finalists for the innovative solution developed, demonstrating effectiveness in addressing the challenge and promoting sustainability in waste reduction initiatives."
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Manoa Academic ",
+      "date": "2022-Present",
+      "awarder": "University of Hawaii Manoa",
+      "summary": "Scholarships awarded to incoming freshmen and continuing students who achieve an overall GPA of 3.8 in high school and minimum overall GPA of 3.0 at the University of Hawaii."
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}

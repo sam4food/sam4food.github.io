@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Full Cycle Takeout | Samuel Yang | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://media.discordapp.net/attachments/713185066653712517/1146782038356131951/Cropped_Image_1.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Samuel Yang | Professional Portfolio">
+    <meta property="og:url" content="https://sam4food.github.io/projects/firesheep314.html">
+    <meta property="og:title" content="Full Cycle Takeout | Samuel Yang | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://media.discordapp.net/attachments/713185066653712517/1146782038356131951/Cropped_Image_1.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Full Cycle Takeout | Samuel Yang | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Samuel Yang</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Full Cycle Takeout</h1>
+ <p><img class="img-fluid" src="../img/FireSheep-FCTWhite.png" /></p>
+
+<p>Full Cycle Takeout - A pilot program by the non-profit Zero Waste O’ahu (Zero Waste Hawaii). Their mission is to reduce the waste produced by single-use containers and utensils by renting out re-usable ones. Having a web application will be able to reduce the burden on both customers and the organization. This applications can be modified and applied more generally for use in other places like in UH. Supporting for their own rental or loan services with different types of items.</p>
+
+<p><img class="img-fluid" src="../img/Landing-Final.png" /></p>
+
+<h2 id="what-i-learned">What I Learned</h2>
+
+<p>We learned about the use of issue-driven project management (IDPM) by breaking down large tasks into manageable components. Each goal was assigned to a team member, and milestones were established to monitor progress. A collaborative atmosphere was maintained, with team members regularly raising issues and engaging in brainstorming sessions for mutual support and feedback.</p>
+
+<p>We implemented acceptance testing to ensure the website’s seamless functionality, eliminating the need for manual verification after modifications. This strategy improved project management efficiency, emphasized teamwork, proactive issue resolution, and continuous improvement. It allowed us to adapt to changes in requirements and add new features, demonstrating our commitment to teamwork and adaptability in the face of change.</p>
+
+<h2 id="challenges">Challenges</h2>
+
+<p>Testing a program involves a complex process that requires careful planning and attention. It involves designing test cases that cover various scenarios, including edge cases and unexpected inputs, to validate the program’s robustness. Balancing manual and automated testing is challenging, as automated tests may struggle with nuanced scenarios that human testers can detect. Managing the testing process within tight timelines and resource constraints is also a challenge. Adapting to evolving requirements and accommodating changes during the testing phase can be challenging. Overcoming these challenges requires a well-structured testing strategy, collaborative teamwork, and an adaptable approach to ensure the program’s reliability and functionality.</p>
+
+<h2 id="contributions">Contributions</h2>
+
+<p>I mainly focused on the front-end portion of the website’s devlopment, creating a user friendly application for people so that they can easily place orders for containers. I was also in charge of creating the tests and testing the program to see if there were any errors within the program. This was crucial for this project as testing helps show whether or not an application is usable. If one test fails, then the program is essentially a failure to an extent.</p>
+
+<p><img class="img-fluid" src="../img/Order-Prototype1.png" /></p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="p">{</span> <span class="nx">Selector</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">testcafe</span><span class="dl">'</span><span class="p">;</span>
+<span class="k">import</span> <span class="p">{</span> <span class="nx">landingPage</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">./landing.page</span><span class="dl">'</span><span class="p">;</span>
+<span class="k">import</span> <span class="p">{</span> <span class="nx">signInPage</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">./signin.page</span><span class="dl">'</span><span class="p">;</span>
+<span class="k">import</span> <span class="p">{</span> <span class="nx">signOutPage</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">./signout.page</span><span class="dl">'</span><span class="p">;</span>
+<span class="k">import</span> <span class="p">{</span> <span class="nx">navBar</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">./navbar.component</span><span class="dl">'</span><span class="p">;</span>
+<span class="k">import</span> <span class="p">{</span> <span class="nx">searchPage</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">./search.page</span><span class="dl">'</span><span class="p">;</span>
+<span class="k">import</span> <span class="p">{</span> <span class="nx">resultPage</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">./result.page</span><span class="dl">'</span><span class="p">;</span>
+<span class="k">import</span> <span class="p">{</span> <span class="nx">orderPage</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">./order.page</span><span class="dl">'</span><span class="p">;</span>
+<span class="k">import</span> <span class="p">{</span> <span class="nx">historyPage</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">./history.page</span><span class="dl">'</span><span class="p">;</span>
+<span class="k">import</span> <span class="p">{</span> <span class="nx">returnPage</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">./return.page</span><span class="dl">'</span><span class="p">;</span>
+<span class="cm">/* global fixture:false, test:false */</span>
+
+<span class="cm">/** Credentials for one of the sample users defined in settings.development.json. */</span>
+<span class="kd">const</span> <span class="nx">credentials</span> <span class="o">=</span> <span class="p">{</span> <span class="na">username</span><span class="p">:</span> <span class="dl">'</span><span class="s1">john@foo.com</span><span class="dl">'</span><span class="p">,</span> <span class="na">adminUser</span><span class="p">:</span> <span class="dl">'</span><span class="s1">admin@foo.com</span><span class="dl">'</span><span class="p">,</span> <span class="na">password</span><span class="p">:</span> <span class="dl">'</span><span class="s1">changeme</span><span class="dl">'</span> <span class="p">};</span>
+<span class="kd">const</span> <span class="nx">testid</span> <span class="o">=</span> <span class="p">{</span> <span class="na">id</span><span class="p">:</span> <span class="dl">'</span><span class="s1">ad69woXDwujkQzb4e</span><span class="dl">'</span> <span class="p">};</span>
+
+<span class="nx">fixture</span><span class="p">(</span><span class="dl">'</span><span class="s1">FireSheep localhost test with default db</span><span class="dl">'</span><span class="p">)</span>
+  <span class="p">.</span><span class="nx">page</span><span class="p">(</span><span class="dl">'</span><span class="s1">http://localhost:3000</span><span class="dl">'</span><span class="p">);</span>
+
+<span class="nx">test</span><span class="p">(</span><span class="dl">'</span><span class="s1">Test that landing page shows up</span><span class="dl">'</span><span class="p">,</span> <span class="k">async</span> <span class="p">(</span><span class="nx">testController</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="k">await</span> <span class="nx">landingPage</span><span class="p">.</span><span class="nx">isDisplayed</span><span class="p">(</span><span class="nx">testController</span><span class="p">);</span>
+<span class="p">});</span>
+
+<span class="nx">test</span><span class="p">(</span><span class="dl">'</span><span class="s1">Test that signin and signout works</span><span class="dl">'</span><span class="p">,</span> <span class="k">async</span> <span class="p">(</span><span class="nx">testController</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="k">await</span> <span class="nx">navBar</span><span class="p">.</span><span class="nx">gotoSignInPage</span><span class="p">(</span><span class="nx">testController</span><span class="p">);</span>
+  <span class="k">await</span> <span class="nx">signInPage</span><span class="p">.</span><span class="nx">signin</span><span class="p">(</span><span class="nx">testController</span><span class="p">,</span> <span class="nx">credentials</span><span class="p">.</span><span class="nx">username</span><span class="p">,</span> <span class="nx">credentials</span><span class="p">.</span><span class="nx">password</span><span class="p">);</span>
+  <span class="k">await</span> <span class="nx">navBar</span><span class="p">.</span><span class="nx">logout</span><span class="p">(</span><span class="nx">testController</span><span class="p">);</span>
+  <span class="k">await</span> <span class="nx">signOutPage</span><span class="p">.</span><span class="nx">isDisplayed</span><span class="p">(</span><span class="nx">testController</span><span class="p">);</span>
+<span class="p">});</span>
+
+<span class="nx">test</span><span class="p">(</span><span class="dl">'</span><span class="s1">Test that order creation process works along with pages with it</span><span class="dl">'</span><span class="p">,</span> <span class="k">async</span> <span class="p">(</span><span class="nx">testController</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="k">await</span> <span class="nx">navBar</span><span class="p">.</span><span class="nx">gotoSignInPage</span><span class="p">(</span><span class="nx">testController</span><span class="p">);</span>
+  <span class="k">await</span> <span class="nx">signInPage</span><span class="p">.</span><span class="nx">signin</span><span class="p">(</span><span class="nx">testController</span><span class="p">,</span> <span class="nx">credentials</span><span class="p">.</span><span class="nx">username</span><span class="p">,</span> <span class="nx">credentials</span><span class="p">.</span><span class="nx">password</span><span class="p">);</span>
+  <span class="k">await</span> <span class="nx">navBar</span><span class="p">.</span><span class="nx">gotoOrderPage</span><span class="p">(</span><span class="nx">testController</span><span class="p">);</span>
+  <span class="k">await</span> <span class="nx">orderPage</span><span class="p">.</span><span class="nx">confirmation</span><span class="p">(</span><span class="nx">testController</span><span class="p">);</span>
+  <span class="k">await</span> <span class="nx">orderPage</span><span class="p">.</span><span class="nx">confirmationSecond</span><span class="p">(</span><span class="nx">testController</span><span class="p">);</span>
+  <span class="k">await</span> <span class="nx">resultPage</span><span class="p">.</span><span class="nx">isDisplayed</span><span class="p">(</span><span class="nx">testController</span><span class="p">);</span>
+  <span class="k">await</span> <span class="nx">navBar</span><span class="p">.</span><span class="nx">gotoHistoryPage</span><span class="p">(</span><span class="nx">testController</span><span class="p">);</span>
+  <span class="k">await</span> <span class="nx">historyPage</span><span class="p">.</span><span class="nx">isDisplayed</span><span class="p">(</span><span class="nx">testController</span><span class="p">);</span>
+<span class="p">});</span>
+
+<span class="nx">test</span><span class="p">(</span><span class="dl">'</span><span class="s1">Test that search page works and functions</span><span class="dl">'</span><span class="p">,</span> <span class="k">async</span> <span class="p">(</span><span class="nx">testController</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="k">await</span> <span class="nx">navBar</span><span class="p">.</span><span class="nx">gotoSignInPage</span><span class="p">(</span><span class="nx">testController</span><span class="p">);</span>
+  <span class="k">await</span> <span class="nx">signInPage</span><span class="p">.</span><span class="nx">signin</span><span class="p">(</span><span class="nx">testController</span><span class="p">,</span> <span class="nx">credentials</span><span class="p">.</span><span class="nx">adminUser</span><span class="p">,</span> <span class="nx">credentials</span><span class="p">.</span><span class="nx">password</span><span class="p">);</span>
+  <span class="k">await</span> <span class="nx">navBar</span><span class="p">.</span><span class="nx">gotoSearchPage</span><span class="p">(</span><span class="nx">testController</span><span class="p">);</span>
+  <span class="k">await</span> <span class="nx">searchPage</span><span class="p">.</span><span class="nx">search</span><span class="p">(</span><span class="nx">testController</span><span class="p">,</span> <span class="nx">testid</span><span class="p">.</span><span class="nx">id</span><span class="p">);</span>
+<span class="p">});</span>
+
+<span class="nx">test</span><span class="p">(</span><span class="dl">'</span><span class="s1">Test that return page and function works</span><span class="dl">'</span><span class="p">,</span> <span class="k">async</span> <span class="p">(</span><span class="nx">testController</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="k">await</span> <span class="nx">navBar</span><span class="p">.</span><span class="nx">gotoSignInPage</span><span class="p">(</span><span class="nx">testController</span><span class="p">);</span>
+  <span class="k">await</span> <span class="nx">signInPage</span><span class="p">.</span><span class="nx">signin</span><span class="p">(</span><span class="nx">testController</span><span class="p">,</span> <span class="nx">credentials</span><span class="p">.</span><span class="nx">adminUser</span><span class="p">,</span> <span class="nx">credentials</span><span class="p">.</span><span class="nx">password</span><span class="p">);</span>
+  <span class="k">await</span> <span class="nx">navBar</span><span class="p">.</span><span class="nx">gotoSearchPage</span><span class="p">(</span><span class="nx">testController</span><span class="p">);</span>
+  <span class="kd">const</span> <span class="nx">firstTdFirstTr</span> <span class="o">=</span> <span class="nx">Selector</span><span class="p">(</span><span class="dl">'</span><span class="s1">tbody tr:first-child td:first-child</span><span class="dl">'</span><span class="p">).</span><span class="nx">innerText</span><span class="p">;</span>
+  <span class="kd">const</span> <span class="nx">text</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">firstTdFirstTr</span><span class="p">;</span>
+  <span class="k">await</span> <span class="nx">searchPage</span><span class="p">.</span><span class="nx">search</span><span class="p">(</span><span class="nx">testController</span><span class="p">,</span> <span class="nx">text</span><span class="p">);</span>
+  <span class="k">await</span> <span class="nx">returnPage</span><span class="p">.</span><span class="nx">isDisplayed</span><span class="p">(</span><span class="nx">testController</span><span class="p">);</span>
+  <span class="k">await</span> <span class="nx">returnPage</span><span class="p">.</span><span class="nx">returnOrder</span><span class="p">(</span><span class="nx">testController</span><span class="p">);</span>
+<span class="p">});</span>
+</code></pre></div></div>
+<h2 id="links">Links</h2>
+
+<p>More information about the website below</p>
+<ul>
+  <li><a href="https://314firesheep.github.io/">https://314firesheep.github.io/</a></li>
+</ul>
+
+<p>GitHub Repository</p>
+<ul>
+  <li><a href="https://github.com/314FireSheep/FullCycleTakeout">https://github.com/314FireSheep/FullCycleTakeout</a></li>
+</ul>
+
+<p>Website</p>
+<ul>
+  <li><a href="https://firesheep.me/">https://firesheep.me/</a></li>
+</ul>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

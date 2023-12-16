@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Bank Database Application | Samuel Yang | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://media.discordapp.net/attachments/713185066653712517/1146782038356131951/Cropped_Image_1.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Samuel Yang | Professional Portfolio">
+    <meta property="og:url" content="https://sam4food.github.io/projects/bankdatabase.html">
+    <meta property="og:title" content="Bank Database Application | Samuel Yang | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://media.discordapp.net/attachments/713185066653712517/1146782038356131951/Cropped_Image_1.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Bank Database Application | Samuel Yang | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Samuel Yang</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Bank Database Application</h1>
+ <h2 id="introduction">Introduction</h2>
+
+<p>This is a bank database application that stores user information. It stores their name, address, and account number. Users are able to add, find, and delete accounts. The program is also capable of printing out all the accounts within the database. There is also an option to activate a debug mode which would tell the user what options were selected, the information that was inputted, and whether or not a function was properly ran.</p>
+
+<h2 id="user-interface">User Interface</h2>
+
+<p><img class="img-fluid" src="../img/bnkUI.png" /></p>
+
+<p>The interface of this application shows a welcome message and provides users with a list of possible options to pick from. It also provides them with a short description of what each option does. At the top, it also provides users with a short message stating whether or not the debug mode is on.</p>
+
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="p">(</span><span class="n">argc</span> <span class="o">==</span> <span class="mi">2</span> <span class="o">&amp;&amp;</span> <span class="n">strcmp</span><span class="p">(</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="s">"debug"</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span>
+<span class="p">{</span>
+  <span class="n">debugMode</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+  <span class="n">printf</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">debugMode is on</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="k">else</span> <span class="nf">if</span> <span class="p">(</span><span class="n">argc</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">)</span>
+<span class="p">{</span>
+  <span class="n">printf</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">Invalid option, try again please.</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+  <span class="k">return</span> <span class="o">-</span><span class="mi">1</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="k">else</span>
+<span class="p">{</span>
+  <span class="n">printf</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">debugMode is off</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="database">Database</h2>
+
+<p><img class="img-fluid" src="../img/bnkAdd.png" /></p>
+
+<p>The database utilitzes a Linked List which is where the data is stored. Each account has information containing account number, their address, and the name of the owenr. It also has a pointer to another record within the database. The design of the database is structured in a way so that the account numbers are stored and sorted in descending order.</p>
+
+<p><img class="img-fluid" src="../img/bnkPall.png" /></p>
+
+<h2 id="testing">Testing</h2>
+
+<p>Within this project, testing was conducted to test the functionality and whether or not the program ran as expected. The test plan for this application consisted of over 40 different steps. In the end, the program functioned almost identically to the expected behavior. The creation of the test plan allowed for the practice of creating a test plan and ensuring that it incorporated a variety of scenarios.</p>
+
+<h2 id="learning-from-this-project">Learning From This Project</h2>
+
+<p>This project helped develop skills in database desgining and understanding of the language C. The real life application of this project exposed me to a bit of understanding regarding real world application development. Learning to create a test plan was also a major thing that was learned during this project because without the development of a test plan, a program could completely fail without the programmer knowing. This is a crucial skill in the real world as well since a single error could be detrimental to the success of a company.</p>
+
+<p>Source: <a href="https://github.com/sam4food/Bank-Database-Application">sam4food/Bank-Database-Application</a></p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
