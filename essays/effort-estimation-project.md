@@ -38,6 +38,6 @@ I used both IntelliJ's timer and a clock to measure time spent. The clock was us
 
 ## Data
 
-Click here for [spreadsheet of data](https://docs.google.com/spreadsheets/d/1OOjWWX32rtXLrTMQb8c3n9-i_irR6X7T5J99RNwFSmI/edit?usp=sharing)
+Click here for [spreadsheet of data](https://docs.google.com/spreadsheets/d/e/2PACX-1vSpWs9wNRyBTSAuWW_HSxfkSgOlvZpSBZnhgIkCxxWdZw1y43XH4lC4f2D8cQ82JgqRiliV1tmWmITx/pubhtml)
 
 Link to project website [here](https://314firesheep.github.io/)
